@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar
+{
+  background: rgb(182, 179, 179);
+  font-family: 'fira sans',sans-serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+  padding: 72px;
+}
+.sidebar nav li{
+  list-style: none;
+  font-size: 30px;
+  padding: 25px 0;
+}
+.sidebar nav li a{
+  text-decoration: none;
+  color: #000;
+}
+.main{
+  /* background: yellow; */
+  width: 90vw;
+}
+.container{
+  display: flex;
+}
+.infoContainer
+{
+  /* background-color: rgb(30, 255, 0); */
+  height: 52vh;
+  width: 75vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.Pic img{
+  width: 250px;
+  height: 300px;
+  
+}
+.devInfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hello{
+  font-size: 65px;
+}
+.name{
+  font-size: 50px;
+}
+.about{
+  font-size: 40px;
+  padding: 2px;
+}
+.moreabout{
+  font-size: 30px;
+  padding: 2px;
+  margin-top: 10px;
+}
+
+.button{
+  margin-top: 27px;
+}
+.btn{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: blue;
+font-weight: bold;
+font-size: 20px;
+margin: 0 3px;
+}
+
+.btn-sm{
+  font-size: 10px;
+  font-family: 'fira sans',sans-serif;
+  margin: 10px 0;
+  padding: 7px 13px;
+}
+
+.btn:hover{
+  background-color: white;
+  color: blue;
+}
+
+.contactform{
+ font-family: 'fira sans',sans-serif;
+ /* padding-top: 400px; */
+ padding: 0 34px;
+}
+
+.contactform h1{
+  font-family: 'fira sans',sans-serif;
+  padding: 12px 0;
+  padding-top: 70px;
+  margin-top: 35px;
+ }
+.contactform div{
+  padding: 10px 0;
+}
+.contactform form div{
+  width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contactform form div input{
+  width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp
+{
+  font-size: 10px;
+  color: rgb(205, 43, 226);
+  margin: 0 5px;
+}
+#form-check{
+  flex-direction: row;
+}
+#form-check input{
+  width: 24px;
+  margin: 3px 0;
+}
+.blogItem{
+  margin: 20px;
+  font-family: 'fira sans',sans-serif;
+}
+h1{
+  font-family: 'fira sans',sans-serif;
+  margin: 23px;
+  margin-top: 80px;
+}
+p{
+  font-family: 'fira sans',sans-serif;
+}
+.Intro h2{
+  font-family: 'fira sans',sans-serif;
+  margin: 12px;
+  margin-top: 50px;
+}
+.Intro p{
+  font-family: 'fira sans',sans-serif;
+  margin: 12px;
+}
+.skillContainer{
+  padding: 12px;
+  margin-top: 10px;
+}
+.skillItem{
+  display: flex;
+  align-items: center;
+}
+.skill{
+  width: 265px;
+  height: 6px;
+  background-color: red;
+  border: 2px solid black;
+}
+.hunderd{
+  width: 265px;
+  background-color: blueviolet;
+}
+.fifty{
+  width: 125px;
+  background-color: aqua;
+}
+.t5{
+  width: 95px;
+  background-color: yellow;
+}
+.humburge{
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.close{
+  margin-left: 184px;
+}
+.sidebarGo{
+  padding: absolute;
+  transform: translate(-443px,0px);
+}
+
+@media (max-width:12450px) {
+  *{
+
+  }
+  /* .sidebar{
+    padding: absolute;
+  } */
+}
